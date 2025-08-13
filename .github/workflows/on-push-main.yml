@@ -26,6 +26,9 @@ jobs:
           repositories_affiliations: owner,organization_member
 
           # Options
+          plugin_topics: yes
+          plugin_topics_limit: 0
+          plugin_topics_mode: icons
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Berlin
