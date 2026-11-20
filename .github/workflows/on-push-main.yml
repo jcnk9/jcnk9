@@ -1,8 +1,8 @@
 # Visit https://github.com/lowlighter/metrics#-documentation for full reference
 name: Metrics
 on:
-  # Schedule updates (each hour)
-  schedule: [{cron: "0 8,20 * * *"}]
+  # Once a day at 04:17 UTC (not on the full hour, GitHub delays those schedules)
+  schedule: [{cron: "17 4 * * *"}]
   # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
   push: {branches: ["main"]}
